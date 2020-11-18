@@ -1,3 +1,8 @@
+
+
+import Foundation
+
+
 extension Plan {
 
     public struct Entry: Identifiable, Equatable {

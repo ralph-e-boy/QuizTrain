@@ -1,3 +1,8 @@
+
+import Foundation
+
+
+
 public struct Status: Identifiable, Equatable {
     public typealias Id = Int
     public let colorBright: Int

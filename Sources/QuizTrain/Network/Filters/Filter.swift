@@ -4,6 +4,12 @@
  See TestRail's API documentation for allowed name/value pairs, chaining of
  filters, and general usage: http://docs.gurock.com/testrail-api2/start
  */
+
+
+
+import Foundation
+
+
 public struct Filter: Equatable {
 
     public var name: String

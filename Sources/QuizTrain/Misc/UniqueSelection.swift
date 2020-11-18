@@ -1,6 +1,12 @@
 /*
  Provides unique selection state.
  */
+
+
+import Foundation
+
+
+
 enum UniqueSelection<SelectionType: Hashable> {
     case all                                                                    // Include everything.
     case some(Set<SelectionType>)                                               // Include only what's specified.

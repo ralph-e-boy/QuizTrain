@@ -1,5 +1,7 @@
 // MARK: - Models
 
+import Foundation
+
 public struct NewCaseField<DataType: NewCaseFieldData>: Hashable {
 
     public var configs: [DataType.Configs] { return data.configs }

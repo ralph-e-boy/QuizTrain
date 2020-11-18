@@ -1,6 +1,12 @@
 /*
  Provides methods to serialize an object or objects into JSON.
  */
+
+
+import Foundation
+
+
+
 protocol JSONSerializable {
     static func serialized<ObjectType: JSONSerializable>(_ objects: [ObjectType]) -> [JSONDictionary]
     static func serialized<ObjectType: JSONSerializable>(_ object: ObjectType) -> JSONDictionary

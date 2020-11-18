@@ -1,3 +1,7 @@
+
+import Foundation
+
+
 public struct Plan: Identifiable, Equatable {
     public typealias Id = Int
     public let assignedtoId: User.Id?

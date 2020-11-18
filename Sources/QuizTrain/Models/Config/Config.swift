@@ -1,3 +1,7 @@
+
+import Foundation
+
+
 public struct Config: Identifiable, Equatable {
     public typealias Id = String
     typealias OptionsContainer = JSONDictionaryContainer

@@ -1,3 +1,8 @@
+
+
+import Foundation
+
+
 public struct User: Identifiable, Equatable {
     public typealias Id = Int
     public let email: String

@@ -1,3 +1,7 @@
+
+import Foundation
+
+
 extension Project {
     public enum SuiteMode: Int, Equatable {
         case singleSuite = 1

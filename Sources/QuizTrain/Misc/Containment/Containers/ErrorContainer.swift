@@ -2,6 +2,10 @@
  Provides a container conforming to Error which stores 1+ items also conforming
  to Error. Useful in situations where multiple errors can occur.
  */
+
+import Foundation
+
+
 public struct ErrorContainer <ErrorType: Error>: Error {
 
     public let errors: [ErrorType]

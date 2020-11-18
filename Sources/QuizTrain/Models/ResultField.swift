@@ -1,3 +1,8 @@
+
+import Foundation
+
+
+
 public struct ResultField: Identifiable, Equatable {
     public typealias Id = Int
     public let configs: [Config]

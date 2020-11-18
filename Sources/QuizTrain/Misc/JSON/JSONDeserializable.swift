@@ -1,6 +1,12 @@
 /*
  Provides methods to deserialize JSON into an object or objects.
  */
+
+
+import Foundation
+
+
+
 protocol JSONDeserializable {
     static func deserialized<ObjectType: JSONDeserializable>(_ json: [JSONDictionary]) -> [ObjectType]?
     static func deserialized<ObjectType: JSONDeserializable>(_ json: JSONDictionary) -> ObjectType?

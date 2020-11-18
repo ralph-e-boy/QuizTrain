@@ -1,3 +1,9 @@
+
+
+import Foundation
+
+
+
 public enum MultipleMatchError<MatchType, QueryType: Hashable>: Error {
     case noMatchesFound(missing: Set<QueryType>)
     case partialMatchesFound(matches: [MatchType], missing: Set<QueryType>)

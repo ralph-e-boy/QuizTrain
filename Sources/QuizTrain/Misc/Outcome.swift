@@ -5,4 +5,10 @@
 
  A typealias is used to allow "Result" to be used as a TestRail model.
  */
+
+
+import Foundation
+
+
+
 public typealias Outcome = Swift.Result

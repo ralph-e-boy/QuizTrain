@@ -1,3 +1,8 @@
+
+import Foundation
+
+
+
 public struct Priority: Identifiable, Equatable {
     public typealias Id = Int
     public let id: Id

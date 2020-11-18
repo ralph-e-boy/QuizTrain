@@ -1,3 +1,7 @@
+
+import Foundation
+
+
 public struct Milestone: Identifiable, Equatable {
     public typealias Id = Int
     public let completedOn: Date?

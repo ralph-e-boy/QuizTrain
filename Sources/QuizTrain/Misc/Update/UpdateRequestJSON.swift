@@ -1,6 +1,11 @@
 /*
  Returns JSON for an update request.
  */
+
+
+import Foundation
+
+
 protocol UpdateRequestJSON {
     var updateRequestJSON: JSONDictionary { get }
 }

@@ -1,3 +1,7 @@
+
+import Foundation
+
+
 public struct Suite: Identifiable, Equatable {
     public typealias Id = Int
     public let completedOn: Date?

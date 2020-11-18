@@ -1,6 +1,10 @@
 /*
  Returns JSON for an add request.
  */
+
+import Foundation
+
+
 protocol AddRequestJSON {
     var addRequestJSON: JSONDictionary { get }
 }

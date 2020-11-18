@@ -1,3 +1,6 @@
+
+import Foundation
+
 extension Config {
 
     public struct Context: Equatable {

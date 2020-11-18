@@ -5,6 +5,9 @@
  omittedKeys. Any keys violating those rules will be silently omitted from being
  added to customFields.
  */
+
+import Foundation
+
 struct CustomFieldsContainer: JSONDeserializable, JSONSerializable, Equatable {
 
     // MARK: - Properties

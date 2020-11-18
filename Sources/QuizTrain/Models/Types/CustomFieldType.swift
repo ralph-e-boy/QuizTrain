@@ -1,3 +1,7 @@
+
+import Foundation
+
+
 public enum CustomFieldType: Int, Equatable {
     case string = 1
     case integer = 2

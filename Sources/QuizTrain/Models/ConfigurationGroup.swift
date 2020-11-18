@@ -1,3 +1,7 @@
+
+import Foundation
+
+
 public struct ConfigurationGroup: Identifiable, Equatable {
     public typealias Id = Int
     public let configs: [Configuration]

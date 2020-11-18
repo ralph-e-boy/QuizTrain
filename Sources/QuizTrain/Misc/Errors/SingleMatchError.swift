@@ -1,3 +1,9 @@
+
+import Foundation
+
+
+
+
 public enum SingleMatchError<QueryType>: Error {
     case noMatchFound(missing: QueryType)
 }

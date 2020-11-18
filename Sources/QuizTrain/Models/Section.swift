@@ -1,3 +1,8 @@
+
+import Foundation
+
+
+
 public struct Section: Identifiable, Equatable {
     public typealias Id = Int
     public let depth: Int

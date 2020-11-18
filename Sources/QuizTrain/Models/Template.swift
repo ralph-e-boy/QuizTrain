@@ -1,3 +1,7 @@
+
+import Foundation
+
+
 public struct Template: Identifiable, Equatable {
     public typealias Id = Int
     public let isDefault: Bool

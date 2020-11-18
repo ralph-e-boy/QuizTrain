@@ -1,6 +1,11 @@
 /*
  Conforming objects can return a URLQueryItem representation of themselves.
  */
+
+
+import Foundation
+
+
 public protocol QueryItemProvider {
     var queryItem: URLQueryItem { get }
     static func queryItems(for providers: [QueryItemProvider]?) -> [URLQueryItem]
